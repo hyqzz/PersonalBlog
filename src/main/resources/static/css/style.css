@@ -1,0 +1,116 @@
+/* 全局样式 */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+/* 导航栏样式 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #007bff;
+}
+
+/* 登录和注册表单样式 */
+.auth-card {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.auth-card h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.auth-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 博客文章卡片样式 */
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.post-card .card-body {
+    padding: 20px;
+}
+
+.post-card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: auto;
+}
+
+.footer p {
+    margin-bottom: 0;
+    text-align: center;
+}
